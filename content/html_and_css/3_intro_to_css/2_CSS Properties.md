@@ -14,7 +14,7 @@ We've already written some declarations when we were changing the colours of dif
 
 There are lots of different CSS properties available, and we are going to use a few of them to improve your earlier website into something more structured like this:
 
-![Screenshot of completed webpage.](content/html_and_css/images/updated_website_preview.png)
+![Screenshot of completed webpage.](../../images/updated_website_preview.png)
 
 {{% notice style="info" title="Let's Get Started!" icon="lightbulb" %}}
 Ready to dive in and start building? Fork the template on CodePen to get started:
