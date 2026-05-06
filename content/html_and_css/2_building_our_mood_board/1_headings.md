@@ -18,7 +18,7 @@ A sub-heading under ‘Values’ would use an `h3` heading element.
 
 For example:
 
-```
+```html
 <html>
 <body> <!-- Your content goes under here -->
     <main>
@@ -61,7 +61,7 @@ A bit further down let's add some text into our `main` replacing our `h3`
 
 ## Check your code
 
-```
+```html
 <html>
 <head>
     <meta charset="UTF-8">
