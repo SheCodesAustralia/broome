@@ -127,9 +127,9 @@ Let's go ahead and pop those underneath each of our images. You don't need to pu
 		</figure>
 		<!-- You can add more images to your grid view of images by repeating the process above -->
 		</div>
-            <div id = "quotetile">
-                  <p>“Creativity takes courage.”</p>
-			</div>0
+			<div id = "quotetile">
+				<p>“Creativity takes courage.”</p>
+			</div>
 	</main>
 
 	<footer>
