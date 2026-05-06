@@ -33,7 +33,7 @@ Let's make a second `div` for our quote text, which we will use for styling purp
 ## Check your Code
 
 ```html 
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>She Codes</title>
