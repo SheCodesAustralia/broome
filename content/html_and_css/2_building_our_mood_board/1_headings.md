@@ -19,7 +19,7 @@ A sub-heading under ‘Values’ would use an `h3` heading element.
 For example:
 
 ```html
-<html>
+<html lang="en">
 <body> <!-- Your content goes under here -->
     <main>
         <h2>She Codes by the Beach 2026</h2>
@@ -62,7 +62,7 @@ A bit further down let's add some text into our `main` replacing our `h3`
 ## Check your code
 
 ```html
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>She Codes</title>
