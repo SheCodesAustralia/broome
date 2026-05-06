@@ -27,9 +27,9 @@ Let's add in a few images to our `main`. It should now look like this:
 <main>
     <h2>She Codes by the Beach 2026</h2>
     <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
-    <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome" />
-    <img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably" />
-    <img src="https://www.color-hex.com/palettes/8143.png" alt="Colour Palette Featuring Orange and Purple/>
+    <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome"/>
+    <img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably"/>
+    <img src="https://www.color-hex.com/palettes/8143.png" alt="Colour Palette Featuring Orange and Purple"/>
     <p>“Creativity takes courage.”</p>
 </main>
 ```
@@ -66,7 +66,7 @@ Let's add `a` tag before our image tag.
 
 ```html
     <a href="https://en.wikipedia.org/wiki/Turtle"> 
-        <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
+        <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach"/>
     </a>
 ```
 
@@ -105,9 +105,9 @@ Try it!
     <main>
         <h2>She Codes by the Beach 2026</h2>
         <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
-        <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome" />
-        <img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably" />
-        <img src="https://www.color-hex.com/palettes/8143.png" alt="Colour Palette Featuring Orange and Purple/>
+        <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome"/>
+        <img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably"/>
+        <img src="https://www.color-hex.com/palettes/8143.png" alt="Colour Palette Featuring Orange and Purple"/>
         <p>“Creativity takes courage.”</p>
     </main>
 
