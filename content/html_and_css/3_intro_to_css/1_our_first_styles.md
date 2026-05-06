@@ -20,17 +20,17 @@ You should notice that our `div` elements look a bit different to what we've see
 
 ```html {title="html"}
 <div class="first-row" id="box-1">
-  <p>Box 1</p>
+	<p>Box 1</p>
 </div>
 <div class="first-row" id="box-2">
-  <p>Box 2</p>
+	<p>Box 2</p>
 </div>
 <div class="second-row" id="box-3">
-  <p>Box 3</p>
+	<p>Box 3</p>
 </div>
 <div class="second-row" id="box-4">
-  <p>Box 4</p>
-</div>
+	<p>Box 4</p>
+</div> 
 ```
 
 We'll use type, class and ID selectors to change the colour of different elements on the page.
@@ -42,14 +42,13 @@ We can use a **type selector** to do this.
 By referencing the `p` tag, we can change the colour of all text in a `p` tag.
 Add the following to your css:
 
-{{% notice style="warning" title="Before - Replace this code" %}}
+{{% notice style="warning" title="Before - Add to this code" %}}
 ```css
 /* Your CSS here */
 
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 ```
 {{% /notice %}}
 
@@ -58,18 +57,17 @@ body {
 /* Your CSS here */
 
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 p {
-  color: blue;
+	color: #ffa300;
 }
 ```
 {{% /notice %}}
 
 {{% notice style="warning" title="Test" icon="vial" %}}
 
-The text should now be blue.
+The text should now be She Code's shade of orange.
 
 {{% /notice %}}
 
@@ -79,21 +77,16 @@ Each box has a unique `id`, which means that we can reference each box individua
 
 Let's try changing the background colour of `box-1` only:
 
-{{% notice style="warning" title="Before - Replace this code" %}}
+{{% notice style="warning" title="Before - Add to this code" %}}
 ```css
 /* Your CSS here */
 
-
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 p {
-  color: blue;
+	color: #ffa300;
 }
-
-
-
 ```
 {{% /notice %}}
 
@@ -101,31 +94,28 @@ p {
 ```css
 /* Your CSS here */
 
-
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 p {
-  color: blue;
+	color: #ffa300;
 }
 
 #box-1 {
-  background-color: hotpink;
+	background-color: #be9fd5;
 }
-
 ```
 {{% /notice %}}
 
 {{% notice style="warning" title="Test" icon="vial" %}}
 
-The top left box should now be pink.
+The top left box should now be another shade of purple.
 
 {{% /notice %}}
 
 {{% notice tip %}}
 
-Notice that we used a `#` before `box-1`, that tells our CSS that we are looking for an ID.
+Notice that we used a `#` before `box-1`, which tells our CSS that we are looking for an ID.
 
 {{% /notice %}}
 
@@ -136,23 +126,20 @@ This means that we could use these classes to reference each row individually, i
 
 Let's try changing the background colour of the two boxes in the bottom row:
 
-{{% notice style="warning" title="Before - Replace this code" %}}
+{{% notice style="warning" title="Before - Add to this code" %}}
 ```css
 /* Your CSS here */
 
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 p {
-  color: blue;
+	color: #ffa300;
 }
 
 #box-1 {
-  background-color: hotpink;
+	background-color: #be9fd5;
 }
-
-
 ```
 {{% /notice %}}
 
@@ -161,32 +148,30 @@ p {
 /* Your CSS here */
 
 body {
-  background-color: orange;
+	background-color: #8246af;
 }
-
 p {
-  color: blue;
+	color: #ffa300;
 }
 
 #box-1 {
-  background-color: hotpink;
+	background-color: #be9fd5;
 }
-
 .second-row {
-  background-color: yellow;
+	background-color: #ffffff;
 }
 ```
 {{% /notice %}}
 
 {{% notice style="warning" title="Test" icon="vial" %}}
 
-The bottom boxes should now be yellow.
+The bottom boxes should now be white.
 
 {{% /notice %}}
 
 {{% notice style="tip" %}}
 
-Notice that we used a `.` before `second-row`, that tells our CSS that we are looking for a class.
+Notice that we used a `.` before `second-row`, which tells our CSS that we are looking for a class.
 
 {{% /notice %}}
 
