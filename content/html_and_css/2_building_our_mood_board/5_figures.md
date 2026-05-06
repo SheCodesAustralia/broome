@@ -31,7 +31,7 @@ Your `main` should now look lke the below.
 
 ```html
 <main>
-      <h2>She Codes by the Beach 2026</h2>
+	<h2>She Codes by the Beach 2026</h2>
 	<div>
             <figure class="grid-item">
                   <a href="https://en.wikipedia.org/wiki/Turtle"> 
@@ -89,51 +89,52 @@ Let's go ahead and pop those underneath each of our images. You don't need to pu
 ```html 
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <title>She Codes</title>
-      <link rel="stylesheet" href="./styles.css">
+	<meta charset="UTF-8">
+	<title>She Codes</title>
+	<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body> <!-- Your content under here -->
-      <header> <!-- Your header section -->
-            <h1>[Your Name] Mood Board ❤</h1>
-            <p>A place for inspiration and creativity</p>
-      </header>
+	<header> <!-- Your header section -->
+		<h1>[Your Name] Mood Board ❤</h1>
+		<p>A place for inspiration and creativity</p>
+	</header>
 
-      <main> <!-- Your main content goes under here -->
-            <div class = "grid-container"> <!-- Your images goes under here -->
-                  <figure class="grid-item">
-                      <a href="https://en.wikipedia.org/wiki/Turtle" target="_blank"> 
-                            <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
-                      </a>
-                      <figcaption>Save the Turtles</figcaption>
-                  </figure>
-                  <figure class="grid-item"> 
-                      <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome" />
-                      <figcaption>Broome ❤</figcaption>
-                  </figure>
-                  <figure class="grid-item">
-                      <img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably" />
-                      <figcaption>Happiness</figcaption>
-                  </figure>
-                  <figure class="grid-item">
-                        <img src="https://www.color-hex.com/palettes/8143.png" />
-                        <figcaption>Favourite Colour</figcaption>
-                  </figure>
-                  <figure class="grid-item">
-                        <img src="https://www.wildplanetblog.com/img/croatia-df4a3205.jpg" alt="Plitvice National Park Waterfalls" />
-                        <figcaption>Dream Holiday Location</figcaption>
-                  </figure>
-                  <!-- You can add more images to your grid view of images by repeating the process above -->
-            </div>
+	<main> <!-- Your main content goes under here -->
+		<h2>She Codes by the Beach 2026</h2>
+		<div class = "grid-container"> <!-- Your images goes under here -->
+		<figure class="grid-item">
+			<a href="https://en.wikipedia.org/wiki/Turtle" target="_blank"> 
+				<img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
+			</a>
+			<figcaption>Save the Turtles</figcaption>
+		</figure>
+		<figure class="grid-item"> 
+			<img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome" />
+			<figcaption>Broome ❤</figcaption>
+		</figure>
+		<figure class="grid-item">
+			<img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably" />
+		<figcaption>Happiness</figcaption>
+		</figure>
+		<figure class="grid-item">
+			<img src="https://www.color-hex.com/palettes/8143.png" />
+			<figcaption>Favourite Colour</figcaption>
+		</figure>
+		<figure class="grid-item">
+			<img src="https://www.wildplanetblog.com/img/croatia-df4a3205.jpg" alt="Plitvice National Park Waterfalls" />
+			<figcaption>Dream Holiday Location</figcaption>
+		</figure>
+		<!-- You can add more images to your grid view of images by repeating the process above -->
+		</div>
             <div id = "quotetile">
                   <p>“Creativity takes courage.”</p>
-            </div>
-      </main>
+			</div>0
+	</main>
 
-      <footer>
-            <p>Created with ❤️ by Your Name</p>
-      </footer>
+	<footer>
+		<p>Created with ❤️ by Your Name</p>
+	</footer>
 </body>
 
 </html>
