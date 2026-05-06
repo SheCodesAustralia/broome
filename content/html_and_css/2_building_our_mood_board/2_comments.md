@@ -10,7 +10,6 @@ We can do this by writing **comments**.
 Comments are tags that appear in our code but not on the webpage.
 This lets us write notes to ourselves about what some code means and what it does.
 
-
 A comment looks like this:
 
 ```html
