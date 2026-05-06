@@ -1,7 +1,7 @@
 theme = 'hugo-theme-relearn'
-baseURL = 'https://tutorials.shecodes.com.au'
+baseURL = 'https://broomeworkshop.netlify.app/html_and_css/'
 languageCode = 'en-au'
-title = 'She Codes One Day Workshop Tutorials (new)'
+title = 'She Codes by the Beach'
 ignoreFiles = ["README.md"]
 
 # For search functionality
