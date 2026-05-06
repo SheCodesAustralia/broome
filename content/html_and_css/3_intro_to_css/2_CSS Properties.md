@@ -4,15 +4,15 @@ weight: 2
 chapter: false
 ---
 
-The other part to CSS is the declarations.
+The other part of CSS is the declarations.
 
-A declaration is made up of a property and it's value:
+A declaration is made up of a property and its value:
 
 ![Annotated CSS declaration.](../../images/css_declaration.png)
 
-We've already written some declarations when we were changing colours of different elements!
+We've already written some declarations when we were changing the colours of different elements!
 
-There are lots of different CSS properties available, and we are going to use a few of them to build the following webpage:
+There are lots of different CSS properties available, and we are going to use a few of them to improve your earlier website into something more structured like this:
 
 ![Screenshot of completed webpage.](../../images/animals_complete.jpeg)
 
