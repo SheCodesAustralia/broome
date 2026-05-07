@@ -21,7 +21,7 @@ The tag selector will get every `img` element.
 The `height` property changes the height of an element by whatever value you provide - in this case, we've specified 100 pixels (`px`).
 
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 Every image on the page should now have the same height.
 {{% /notice %}}
 
@@ -59,7 +59,7 @@ header img {
 
 We read this like: "select all the `img` tags that are in the `header` tag.
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 
 Only the first image will be `200px` in height, and the rest will return to their default sizes.
 
@@ -172,7 +172,7 @@ Let's modify our CSS to also set the width of the cards and their images.
 ```
 {{% /notice %}}
 
-{{% notice tip %}}
+{{% notice note %}}
 Our cards aren't side by side like they are in the preview - don't worry! We'll get to that soon!
 {{% /notice %}}
 
