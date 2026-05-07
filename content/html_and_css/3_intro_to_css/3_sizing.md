@@ -27,7 +27,7 @@ Every image on the page should now have the same height.
 
 Every image now has the same height, but if we have a look at our preview of the final product, we can see images of different sizes:
 
-![Screenshot of completed webpage.](../../images/sizing_page_update.png)
+![Screenshot of completed webpage mood board pics.](../../images/mood_board_pic.png)
 
 Instead of changing the height of all images at once, let's start at the top of the page and, working our way from top to bottom, resize each group of images.
 
@@ -226,6 +226,6 @@ We will then resize the images inside these columns.
 
 Here's what your page should look like at this stage:
 
-![](../../images/mood_board_pics.png)
+![](../../images/sizing_page_update.png)
 
 
