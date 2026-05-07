@@ -30,7 +30,7 @@ nav {
 The nav text should now be in the center.
 {{% /notice %}}
 
-{{% notice tip %}}
+{{% notice note %}}
 
 As we go through this tutorial, you'll start to see that every CSS property has many different values. We'll link to some docs here and there to show you all the different values if you are interested. For example, here are all the values for [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align).
 
@@ -59,7 +59,7 @@ Add the following to your CSS:
 ```
 {{% /notice %}}
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 The cards should now be side by side.
 {{% /notice %}}
 
@@ -111,8 +111,8 @@ Here's what your page should look like so far:
 
 ![](../../images/layout_update.png)
 
-{{% notice style="warning" title="NOTE" icon="vial" %}}
-This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
+{{% notice style="note" title="NOTE" icon="vial" %}}
+This preview is an example of how it would look with the completion of the challenges. To check or compare, take a look at the following CSS code.
 
 <details>
 <summary><b>CSS Code</b> <-- click to reveal</summary>
