@@ -1,6 +1,7 @@
 ---
 title: "HTML & CSS"
 weight: 1
+chapter: false
 pre: "<i class='fab fa-html5'></i>&nbsp; "
 ---
 
