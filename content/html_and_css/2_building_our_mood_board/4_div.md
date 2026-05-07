@@ -31,6 +31,10 @@ Let's make a second `div` for our quote text, which we will use for styling purp
 
 ## Check your Code
 
+{{% notice style="note" title="Check Your Code" %}}
+<details>
+<summary><b>HTML Code</b></summary>
+
 ```html 
 <html lang="en">
 <head>
@@ -67,5 +71,8 @@ Let's make a second `div` for our quote text, which we will use for styling purp
 </body>
 </html>
 ```
+
+</details>
+{{% /notice %}}
 
 
