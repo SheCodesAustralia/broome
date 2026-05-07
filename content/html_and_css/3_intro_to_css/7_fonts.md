@@ -106,7 +106,7 @@ a {
 }
 ```
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 
 The colour of the `a` (link) tags in the `nav` should turn orange.
 
@@ -119,7 +119,7 @@ Change the colour of the `h1`, `h2` and `h3` headings.
 {{% /notice %}}
 
 Here's what your page could look like so far (using your own fonts). The following example uses Bebas Neue instead of Raleway:
-{{% notice style="tip" title="Fun Fact" icon="lightbulb" %}}
+{{% notice style="note" title="Fun Fact" icon="lightbulb" %}}
 This was She Code's old font.
 Kate, please don't hate me <3
 - Editor note
