@@ -115,7 +115,7 @@ Here's what your page should look like so far:
 This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
 
 <details>
-<summary>**CSS Code** <-- click to reveal</summary>
+<summary><b>CSS Code</b> <-- click to reveal</summary>
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
