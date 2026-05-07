@@ -36,13 +36,6 @@ As we go through this tutorial, you'll start to see that every CSS property has 
 
 {{% /notice %}}
 
-{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-
-Add CSS to set the `header` and `main` elements' `text-align` property to `center`. To center all the content.
-A similar method of doing this is by using `justify-content`.
-
-{{% /notice %}}
-
 ## Step 2
 
 Next up, let's get those cards to be side by side.
@@ -89,13 +82,27 @@ When we set the cards to be `inline-block`, we told them they can be side by sid
 
 
 # Step 3
-The pictures are now aligned, but they overlap with the rest of the content still. So let's try to format the layout for the rest of the content.
+Now that we have the images formatted, let's start formatting the quote blocks
 
-{{% notice tip %}}
+{{% notice style="tip" title="Add code" 
+```
+.first-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+.second-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+```
+{{% /notice %}}
 
-Here are some docs on [vertical-align](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align) if you would like to see what other values are available.
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
-We can start by seperating 
+Add CSS to set the `header` and `main` elements' `text-align` property to `center`. To center all the content.
+A similar method of doing this is by using [justify-content](https://www.w3schools.com/cssref/css3_pr_justify-content.php).
 
 {{% /notice %}}
 
@@ -105,3 +112,67 @@ Here's what your page should look like so far:
 
 
 ![](../../images/animals_layout.jpeg)
+
+{{% notice style="warning" title="NOTE" icon="vial" %}}
+
+This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
+```
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	background-color: #8246af;
+	font-family: "Raleway";
+}
+nav {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+body {
+	margin: 0;
+}
+
+img {
+	object-fit: cover;
+}
+
+/* Your CSS here */
+header img {
+	height: 200px;
+}
+
+body {
+	display: flex;
+  	ustify-content: center;
+	align-items: center; 
+	flex-direction: column; /* Controls vertical alignment along the main axis */
+}
+
+figcaption {
+	text-align: center;
+}
+
+.grid-item {
+	height: 250px;
+	display: inline-block;
+}
+.grid-item img {
+	width: 100%;
+	height: 200px; /* Fixed height for a uniform grid */;
+	border-radius: 8px;
+}
+
+.first-row {
+	height: 250px;
+	width: 250px;
+	display: inline-block;
+}
+.second-row {
+	height: 250px;
+	width: 250px;
+	display: inline-block;
+}
+```
+{{% /notice %}}
