@@ -61,7 +61,7 @@ A bit further down let's add some text into our `main` replacing our `h3`
 
 ## Check your code
 
-{{% notice style="note" title="Check Your Code" icon="lightbulb" %}}
+{{% notice style="note" title="Check Your Code" %}}
 <details>
 <summary><b>HTML Code</b> <-- click to reveal</summary>
 
