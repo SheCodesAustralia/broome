@@ -85,7 +85,7 @@ When we set the cards to be `inline-block`, we told them they can be side by sid
 Now that we have the images formatted, let's start formatting the quote blocks
 
 {{% notice style="tip" title="Add code" 
-```
+```css
 .first-row {
   height: 250px;
   width: 250px;
