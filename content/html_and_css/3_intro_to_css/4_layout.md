@@ -9,7 +9,7 @@ The next thing that we are going to do is figure out how to modify the layout of
 
 Once again, we'll start at the top of the page and work our way down, using our preview as a guide:
 
-![Screenshot of completed webpage.](../../images/animals_complete.jpeg)
+![Screenshot of completed webpage.](../../images/broome_web_fin.png)
 
 ## Step 1
 
