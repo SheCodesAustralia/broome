@@ -66,7 +66,6 @@ A bit further down let's add some text into our `main` replacing our `h3`
 <summary><b>HTML Code</b> <-- click to reveal</summary>
 
 ```html
-```html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
