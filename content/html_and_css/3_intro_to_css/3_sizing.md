@@ -70,10 +70,10 @@ Only the first image will be `200px` in height, and the rest will return to thei
 
 ## Step 3
 
-The next three images are a bit different.
-They are in white boxes, and each has a heading and paragraph to go with it:
+The next couple of images are a bit different.
+They all have rounded edges and have captions describing them. Notice how they're also aligned next to each other.
 
-![](../../images/animals_cards.jpeg)
+![](../../images/mood_board_pics.png)
 
 Let's take a look at the HTML to see the structure of this part of the page:
 
@@ -268,6 +268,6 @@ For images inside the divs with the `column` class: set their `height` to `200px
 
 Here's what your page should look like at this stage:
 
-![](../../images/animals_sizing.jpeg)
+![](../../images/mood_board_pics.png)
 
 
