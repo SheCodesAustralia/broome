@@ -24,7 +24,7 @@ nav {
 ```
 {{% /notice %}}
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 
 There will now be more space in the nav around the text.
 
@@ -49,7 +49,7 @@ Notice how there's large gaps between the images? Well, they can be customised t
 {{% /notice %}}
 
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 
 There will now be a gap between the images.
 
