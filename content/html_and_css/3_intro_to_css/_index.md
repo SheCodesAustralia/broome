@@ -27,7 +27,7 @@ body {
 }
 ```
 
-{{% notice style="warning" title="Test" icon="vial" %}}
+{{% notice style="note" title="Test" icon="vial" %}}
 
 The page should turn into She Code's shade of purple!
 
