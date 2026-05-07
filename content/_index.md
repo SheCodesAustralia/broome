@@ -1,5 +1,5 @@
 ---
-title: "She Codes Workshop Tutorials"
+title: "She Codes by the Beach"
 ---
 
 <link rel="stylesheet" href="/css/home-page-emojis.css">
