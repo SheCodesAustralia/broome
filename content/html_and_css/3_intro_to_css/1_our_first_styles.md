@@ -64,12 +64,7 @@ p {
 }
 ```
 {{% /notice %}}
-
-{{% notice style="warning" title="Test" icon="vial" %}}
-
 The text should now be She Code's shade of orange.
-
-{{% /notice %}}
 
 ## ID Selectors
 
@@ -107,13 +102,11 @@ p {
 ```
 {{% /notice %}}
 
-{{% notice style="warning" title="Test" icon="vial" %}}
 
 The top left box should now be another shade of purple.
 
-{{% /notice %}}
 
-{{% notice tip %}}
+{{% notice style="note" title="Note" %}}
 
 Notice that we used a `#` before `box-1`, which tells our CSS that we are looking for an ID.
 
@@ -163,13 +156,9 @@ p {
 ```
 {{% /notice %}}
 
-{{% notice style="warning" title="Test" icon="vial" %}}
-
 The bottom boxes should now be white.
 
-{{% /notice %}}
-
-{{% notice style="tip" %}}
+{{% notice style="note" title="Note" %}}
 
 Notice that we used a `.` before `second-row`, which tells our CSS that we are looking for a class.
 
