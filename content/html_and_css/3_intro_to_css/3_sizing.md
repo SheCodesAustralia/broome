@@ -22,9 +22,7 @@ The `height` property changes the height of an element by whatever value you pro
 
 
 {{% notice style="warning" title="Test" icon="vial" %}}
-
 Every image on the page should now have the same height.
-
 {{% /notice %}}
 
 Every image now has the same height, but if we have a look at our preview of the final product, we can see images of different sizes:
@@ -48,7 +46,6 @@ img {
 	height: 200px;
 }
 ```
-
 {{% /notice %}}
 
 {{% notice style="tip" title="After - Updated code" %}}
@@ -79,8 +76,8 @@ Let's take a look at the HTML to see the structure of this part of the page:
 
 ```html {title="html"}
 <section class="row" id="favourite_things">
+	<h3>My favourite things</h3>
 	<div class = "grid-container"> <!-- Your images goes under here -->
-		<h3>My favourite things</h3>
 		<figure class="grid-item"> <!-- Your first image -->
 			<a href="https://en.wikipedia.org/wiki/Turtle" target="_blank"> 
 				<img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach" />
@@ -109,41 +106,25 @@ Let's take a look at the HTML to see the structure of this part of the page:
 
 Notice how these white boxes are all the same height?
 Let's add some CSS for this.
-From the HTML above we can see that each box is in a `div` with the class `card`.
+From the HTML above, we can see that each box is in a `div` with the class `grid-item`.
 
-Add a height to each of these cards:
+Add a height to each of these images:
 
 {{% notice style="warning" title="Before - Add to this code" %}}
 ```css
-#favourite_things div img {
-	width: 200px;
-}
-```
-
-{{% /notice %}}
-
-{{% notice style="tip" title="After - Updated code" %}}
-```css
-#favourite_things div img {
-	width: 200px;
-}
 .grid-item {
 	height: 250px;
 }
 ```
 {{% /notice %}}
+So now that adjusted the height of the grid. But it didn't update the height of the images within the grid. So how do we fix this?
 
-Well, that definitely did something, but it did not resize the images.
-
-Add the following to your CSS to now resize the images:
-
-{{% notice style="warning" title="Before - Replace this code" %}}
+{{% notice style="warning" title="Before - Change this code code" %}}
 ```css
 .grid-item {
 	height: 250px;
 }
 ```
-
 {{% /notice %}}
 
 {{% notice style="tip" title="After - Updated code" %}}
@@ -152,15 +133,10 @@ Add the following to your CSS to now resize the images:
 	height: 250px;
 }
 .grid-item img {
-	height: 40%;
+	height: 200px; /* Fixed height for a uniform grid */
 }
 ```
-{{% /notice %}}
-
-{{% notice style="warning" title="Test" icon="vial" %}}
-
 The images in the cards should now all be the same height.
-
 {{% /notice %}}
 
 The way we set the height of these images is a bit different to what we did previously.
@@ -168,62 +144,53 @@ The way we set the height of these images is a bit different to what we did prev
 Rather than specifying a value in pixels, we gave a percentage.
 This CSS is saying "set the height of this element to be `40%` of the height of its parent (where **parent** means the element it is in, in this case, that is the card).
 
-{{% notice tip %}}
-
-This only works when the parent element has a specific size set.
-Try removing `height: 250px` from the `.card` to see this for yourself!
-
-{{% /notice %}}
-
 ## Step 4
 
 So far we have just been setting the height, but we can actually set the width using the same format.
 Let's modify our CSS to also set the width of the cards and their images.
 
-{{% notice style="warning" title="Before - Replace this code" %}}
+{{% notice style="warning" title="Before - Update this code" %}}
 ```css
 .grid-item {
 	height: 250px;  
 }
 .grid-item img {
-	height: 40%;
+	height: 200px; /* Fixed height for a uniform grid */
 }
 ```
-
 {{% /notice %}}
 
 {{% notice style="tip" title="After - Updated code" %}}
 ```css
 .grid-item {
 	height: 250px;
-	width: 25%;   
 }
 .grid-item img {
-	height: 40%;
-	width: 100%;
+  width: 100%;
+  height: 200px; /* Fixed height for a uniform grid */%;
 }
 ```
 {{% /notice %}}
 
-{{% notice style="warning" title="Test" icon="vial" %}}
-
-The images should now be as wide as the cards.
-
-{{% /notice %}}
-
 {{% notice tip %}}
-
 Our cards aren't side by side like they are in the preview - don't worry! We'll get to that soon!
-
 {{% /notice %}}
 
-## Step 6
-
-{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-
+{{% notice style="info" title="Optional" icon="lightbulb" %}}
+If you'd like your images to have rounded corners, add the following code!
+```css
+.grid-item {
+	height: 250px;
+}
+.grid-item img {
+	width: 100%;
+	height: 200px; /* Fixed height for a uniform grid */;
+	border-radius: 8px;
+}
+```
 {{% /notice %}}
 
-## Step 7
+## Step 5
 
 The last section is `favourite_quotes` and has multiple boxes with quotes (a reference to your work in part 3.1!.
 
@@ -249,22 +216,13 @@ Let's take a look at the structure of the HTML:
 </section>
 ```
 
-Each of these images is in a `div` with the class `first-row` and `second-row`.
-Eventually, these columns will be side by side, which means they need to be `50%` wide each in order to fit beside each other.
-
+Each of these images is in a `div` with the classes `first-row` and `second-row`.
+Eventually, these columns will be side by side.
 {{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-
-Set the `width` of the divs with the `column` class to `50%`.
-
+Set the `width` of the divs with the `first-row` and `second-row` classes to `250px`.
 {{% /notice %}}
 
-We will then resize the images inside of these columns.
-
-{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-
-For images inside the divs with the `column` class: set their `height` to `200px` and their `width` to `80%`.
-
-{{% /notice %}}
+We will then resize the images inside these columns.
 
 Here's what your page should look like at this stage:
 
