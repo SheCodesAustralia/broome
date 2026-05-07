@@ -60,9 +60,7 @@ Add the following to your CSS:
 {{% /notice %}}
 
 {{% notice style="warning" title="Test" icon="vial" %}}
-
 The cards should now be side by side.
-
 {{% /notice %}}
 
 Let's unpack that.
@@ -84,7 +82,7 @@ When we set the cards to be `inline-block`, we told them they can be side by sid
 # Step 3
 Now that we have the images formatted, let's start formatting the quote blocks
 
-{{% notice style="tip" title="Add code" 
+{{% notice style="tip" title="Add code"%}}
 ```css
 .first-row {
   height: 250px;
@@ -114,7 +112,6 @@ Here's what your page should look like so far:
 ![](../../images/layout_update)
 
 {{% notice style="warning" title="NOTE" icon="vial" %}}
-
 This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
