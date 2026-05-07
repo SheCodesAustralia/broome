@@ -115,63 +115,66 @@ Here's what your page should look like so far:
 This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
 
 <details>
-	<summary>CSS Code</summary>
-	
-	<pre><code class="language-css">
-	@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+<summary>CSS Code</summary>
 
-	html {
-  		background-color: #8246af;
-		font-family: "Raleway";
-	}
+```css
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-	nav {
-		text-align: center;
-	}
+html {
+  background-color: #8246af;
+  font-family: "Raleway";
+}
 
-	header {
- 		text-align: center;
-	}
+nav {
+  text-align: center;
+}
 
-	img {
-		object-fit: cover;
-	}
+header {
+  text-align: center;
+}
 
-	header img {
-		height: 200px;
-	}
+img {
+  object-fit: cover;
+}
 
-	body {
-		display: flex;
-		justify-content: center;
-  		align-items: center; 
-  		flex-direction: column; /* Controls vertical alignment along the main axis */
-	}
+header img {
+  height: 200px;
+}
 
-	figcaption {
-		text-align: center;
-	}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-	.grid-item {
-		height: 250px;
-  		display: inline-block;
-	}
-	.grid-item img {
-		width: 100%;
-		height: 200px; /* Fixed height for a uniform grid */;
-		border-radius: 8px;
-	}
+figcaption {
+  text-align: center;
+}
 
-	.first-row {
-  		height: 250px;
-  		width: 250px;
-  		display: inline-block;
-	}
-	.second-row {
-  		height: 250px;
-  		width: 250px;
-  		display: inline-block;
-	}
-	</code></pre>
+.grid-item {
+  height: 250px;
+  display: inline-block;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.first-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.second-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+```
+
 </details>
 {{% /notice %}}
