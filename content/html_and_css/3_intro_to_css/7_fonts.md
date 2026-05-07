@@ -29,6 +29,7 @@ Paste this code at the **top of your css file**.
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* */
 ```
+If you've noticed in our template, we've actually been making you use She Code's signature font Raleway - but of course you're free to change that since you have the power to now <3
 
 Then head back to Google Fonts and copy the `font-family` line of code.
 
@@ -101,13 +102,13 @@ Add the following to your CSS:
 /* Your CSS here */
 
 a {
-	color: #ffffff;
+	color: #ffa300;
 }
 ```
 
 {{% notice style="warning" title="Test" icon="vial" %}}
 
-The colour of the `a` tags in the `nav` should turn white.
+The colour of the `a` (link) tags in the `nav` should turn orange.
 
 {{% /notice %}}
 
@@ -117,6 +118,11 @@ Change the colour of the `h1`, `h2` and `h3` headings.
 
 {{% /notice %}}
 
-Here's what your page should look like so far (using your own fonts):
+Here's what your page could look like so far (using your own fonts). The following example uses Bebas Neue instead of Raleway:
+{{% notice style="tip" title="Fun Fact" icon="lightbulb" %}}
+This was She Code's old font.
+Kate, please don't hate me <3
+- Editor note
+{{% /notice %}}
+![](../../images/kate_fave_font.png)
 
-![](../../images/animals_fonts.jpeg)
