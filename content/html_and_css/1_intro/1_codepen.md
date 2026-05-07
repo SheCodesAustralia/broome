@@ -5,7 +5,7 @@ chapter: false
 ---
 
 We've created a template for you to get started with.
-Open the template by [clicking this link](https://codepen.io/shecodesaus/pen/XJmOjQv).
+Open the template by [clicking this link](https://codepen.io/shecodesaus/pen/NPbxGLX).
 
 Once you've opened the pen, click the `fork` button on the bottom right of the page (you will need to make sure you are logged in first).
 
