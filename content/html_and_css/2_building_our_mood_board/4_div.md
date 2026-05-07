@@ -33,7 +33,7 @@ Let's make a second `div` for our quote text, which we will use for styling purp
 
 {{% notice style="note" title="Check Your Code" %}}
 <details>
-<summary><b>HTML Code</b></summary>
+<summary><b>HTML Code</b> <-- Click to reveal</summary>
 
 ```html 
 <html lang="en">
