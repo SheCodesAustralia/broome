@@ -93,11 +93,6 @@ Let's take a look at the HTML to see the structure of this part of the page:
 			<figcaption>Broome ❤</figcaption>
 		</figure>
 
-		<figure class="grid-item"> <!-- Your third image -->
-			<img src="https://www.foundanimals.org/wp-content/uploads/2023/02/twenty20_b4e89a76-af70-4567-b92a-9c3bbf335cb3.jpg" alt="Black Cat Lying Upside Dowwn Staring Adorably" />
-			<figcaption>Happiness</figcaption>
-		</figure>
-
 		<figure class="grid-item">
 			<img src="https://www.color-hex.com/palettes/8143.png" />
 			<figcaption>Favourite Colour</figcaption>
