@@ -9,4 +9,4 @@ Everything you see when you're navigating around the Internet - from fonts and c
 
 This tutorial covers the basics of HTML & CSS with minimal setup required. Dive straight in!
 
-![She Codes Workshop Image](../../images/She_Codes_Broome.png)
+![She Codes Workshop Image](She_Codes_Broome.png)
