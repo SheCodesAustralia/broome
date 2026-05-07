@@ -87,7 +87,7 @@ Let's go ahead and pop those underneath each of our images. You don't need to pu
 ## Check your Code
 {{% notice style="note" title="Check Your Code" %}}
 <details>
-<summary><b>HTML Code</b></summary>
+<summary><b>HTML Code</b> <-- Click here</summary>
 	
 ```html 
 <html lang="en">
