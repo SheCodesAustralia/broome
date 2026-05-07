@@ -79,7 +79,7 @@ There are several different values for `display`, but right now we'll just focus
 When we set the cards to be `inline-block`, we told them they can be side by side while still maintaining the width we set earlier of `25%`.
 
 
-# Step 3
+## Step 3
 Now that we have the images formatted, let's start formatting the quote blocks
 
 {{% notice style="tip" title="Add code"%}}
