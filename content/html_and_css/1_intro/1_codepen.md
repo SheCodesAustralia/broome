@@ -14,7 +14,7 @@ Once you've opened the pen, click the `fork` button on the bottom right of the p
 This will make a copy of the pen under your account.
 This means that you can edit it as much as you like and keep your changes.
 
-{{% notices style="note" title="Note" icon="lightbulb" %}}
+{{% notice style="note" title="Note" icon="lightbulb" %}}
 
 You can change the layout of the Codepen editor by clicking the view button in the top left (see the screenshot below).
 
