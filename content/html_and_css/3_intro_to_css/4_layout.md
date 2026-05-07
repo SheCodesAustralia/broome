@@ -109,7 +109,7 @@ It's really starting to come together now!
 Here's what your page should look like so far:
 
 
-![](../../images/layout_update)
+![](../../images/layout_update.png)
 
 {{% notice style="warning" title="NOTE" icon="vial" %}}
 This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
