@@ -35,7 +35,7 @@ Let's add in a few images to our `main`. It should now look like this:
 ```
 
 
-{{% notice tip %}}
+{{% notice style="note" title="Note" icon="lightbulb"%}}
 
 If you want to use a different image from the internet, you can right click on the image and copy it's URL (see the screenshot below).
 
@@ -78,7 +78,7 @@ Add at least one link to another website to your page. Play around with adding i
 
 {{% /notice %}}
 
-{{% notice tip %}}
+{{% notice style="note" title="Note" icon="lightbulb" %}}
 
 When you click the link it takes us to that page in our CodePen window.
 Instead, we could open that link in a new tab by adding `target="_blank"` to the `a` tag.
@@ -87,6 +87,9 @@ Try it!
 {{% /notice %}}
 
 ## Check your code
+{{% notice style="note" title="Check Your Code" %}}
+<details>
+<summary><b>HTML Code</b></summary>
 
 ```html 
 <html lang="en">
@@ -119,3 +122,6 @@ Try it!
 </body>
 </html>
 ```
+
+</details>
+{{% /notice %}}
