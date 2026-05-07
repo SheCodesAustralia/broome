@@ -91,8 +91,7 @@ A bit further down let's add some text into our `main` replacing our `h3`
     </footer>
 </body>
 </html>
-
 ```
-</summary>
+
 </details>
 {{% /notice %}}
