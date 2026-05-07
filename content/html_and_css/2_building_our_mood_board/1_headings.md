@@ -61,6 +61,11 @@ A bit further down let's add some text into our `main` replacing our `h3`
 
 ## Check your code
 
+{{% notice style="note" title="Check Your Code" icon="lightbulb" %}}
+<details>
+<summary><b>CSS Code</b> <-- click to reveal</summary>
+
+```css
 ```html
 <html lang="en">
 <head>
@@ -88,5 +93,6 @@ A bit further down let's add some text into our `main` replacing our `h3`
 </html>
 
 ```
-
-
+</summary>
+</details>
+{{% /notice %}}
