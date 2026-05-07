@@ -89,7 +89,7 @@ Try it!
 ## Check your code
 {{% notice style="note" title="Check Your Code" %}}
 <details>
-<summary><b>HTML Code</b> <-- Click here</summary>
+<summary><b>HTML Code</b> <-- Click to reveal</summary>
 
 ```html 
 <html lang="en">
