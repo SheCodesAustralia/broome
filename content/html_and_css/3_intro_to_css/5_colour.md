@@ -115,4 +115,4 @@ Change the background colour of the `footer`.
 
 Here's what your page should look like so far:
 
-![](../../images/animals_colour.jpeg)
+![](../../images/colour_update.png)
