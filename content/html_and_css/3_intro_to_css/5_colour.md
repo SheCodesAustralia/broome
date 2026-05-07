@@ -59,6 +59,16 @@ body {
   align-items: center; 
   flex-direction: column;
 }
+.first-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+.second-row {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
 ```
 
 {{% /notice %}}
