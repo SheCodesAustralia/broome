@@ -70,17 +70,7 @@ Only the first image will be `200px` in height, and the rest will return to thei
 
 ## Step 3
 
-Working our way down, the next section has two images:
-
-```html {title="html"}
-<section class="row" id="favourite_things">
-    <h2>My favourite things</h2>
-    <div>
-        <img src="" />
-        <img src="" />
-    </div>
-</section>
-```
+Working our way down, the next section has multiple images:
 
 These images are both in a `div`, then in a `section` with id `section-2`.
 Just as we did earlier, we can combine these selectors to specify only these two images:
