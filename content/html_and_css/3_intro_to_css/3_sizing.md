@@ -70,42 +70,6 @@ Only the first image will be `200px` in height, and the rest will return to thei
 
 ## Step 3
 
-Working our way down, the next section has multiple images:
-
-These images are both in a `div`, then in a `section` with id `section-2`.
-Just as we did earlier, we can combine these selectors to specify only these two images:
-
-{{% notice style="warning" title="Before - Replace this code" %}}
-```css
-/* Your CSS here */
-header img {
-	height: 200px;
-}
-```
-
-{{% /notice %}}
-
-{{% notice style="tip" title="After - Updated code" %}}
-```css
-/* Your CSS here */
-header img {
-	height: 200px;
-}
-
-#favourite_things div img {
-	width: 200px;
-}
-```
-{{% /notice %}}
-
-{{% notice style="warning" title="Test" icon="vial" %}}
-
-The next two images will be `300px` wide.
-
-{{% /notice %}}
-
-## Step 4
-
 The next three images are a bit different.
 They are in white boxes, and each has a heading and paragraph to go with it:
 
@@ -216,7 +180,7 @@ Try removing `height: 250px` from the `.card` to see this for yourself!
 
 {{% /notice %}}
 
-## Step 5
+## Step 4
 
 So far we have just been setting the height, but we can actually set the width using the same format.
 Let's modify our CSS to also set the width of the cards and their images.
