@@ -110,7 +110,7 @@ From the HTML above, we can see that each box is in a `div` with the class `grid
 
 Add a height to each of these images:
 
-{{% notice style="warning" title="Before - Add to this code" %}}
+{{% notice style="tip" title="After - Adding to this code" %}}
 ```css
 .grid-item {
 	height: 250px;
