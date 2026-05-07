@@ -66,16 +66,12 @@ Instead of just using `padding` we also used `gap` and `margin`.
 Add `20px` of padding to each of the quotes.
 {{% /notice %}}
 
-## Step 5
-
 {{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-
-For `section-4` and each `.column`, add `20px` of `padding` to the top and bottom, and `0px` of `padding` to the left and right.
 
 {{% /notice %}}
 
 {{% notice style="info" title="Challenge!" icon="lightbulb" %}}
-Add `10px` of `padding` to the footer.
+Add `30px` of `padding` to the footer.
 {{% /notice %}}
 
 
