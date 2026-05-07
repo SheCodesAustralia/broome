@@ -111,12 +111,12 @@ It's really starting to come together now!
 Here's what your page should look like so far:
 
 
-![](../../images/animals_layout.jpeg)
+![](../../images/layout_update)
 
 {{% notice style="warning" title="NOTE" icon="vial" %}}
 
 This preview is an example of how it would look with the completion of the challenges. To check or compare take a look at the following CSS code.
-```
+```css
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
