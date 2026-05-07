@@ -19,5 +19,5 @@ There are lots of different CSS properties available, and we are going to use a 
 {{% notice style="info" title="Let's Get Started!" icon="lightbulb" %}}
 Ready to dive in and start building? Fork the template on CodePen to get started:
 
-[Fork the template on CodePen](https://codepen.io/shecodesaus/pen/JjOezbg)
+[Fork the template on CodePen](https://codepen.io/pen?template=jEVWNrb)
 {{% /notice %}}
