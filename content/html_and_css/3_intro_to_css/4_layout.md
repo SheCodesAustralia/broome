@@ -117,7 +117,7 @@ This preview is an example of how it would look with the completion of the chall
 <details>
 	<summary>CSS Code</summary>
 	
-	```css
+	<pre><code class="language-css">
 	@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 	html {
@@ -172,6 +172,6 @@ This preview is an example of how it would look with the completion of the chall
   		width: 250px;
   		display: inline-block;
 	}
-	```
+	</code></pre>
 </details>
 {{% /notice %}}
