@@ -107,7 +107,7 @@ Try it!
 
     <main>
         <h2>She Codes by the Beach 2026</h2>
-        <a href="https://en.wikipedia.org/wiki/Turtle"> 
+        <a href="https://en.wikipedia.org/wiki/Turtle" target="_blank"> 
             <img src="https://assets.codepen.io/5804361/turtle_2.jpg" alt="A baby turtle on the beach"/>
         </a>
         <img src="https://images.ctfassets.net/0zg5jftjwixq/2wqI4cgOUXecvmBiQ2v7pi/8f8f2a4ec1bca634ea15f587593f4ee7/NEW-Broome-Coast-WA-122782-56.jpg?w=1600" alt="We love Broome"/>
