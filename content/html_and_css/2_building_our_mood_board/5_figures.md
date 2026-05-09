@@ -85,6 +85,7 @@ The last step we are going to do is adding some cute little captions to our figu
 Let's go ahead and pop those underneath each of our images. You don't need to put one on your quote box, but if you'd like to call to - go for it! The full code is below if you want to check your work.
 
 ## Check your Code
+Your web page would not have shown changes yet - this step is preparation for the CSS tutorial!
 {{% notice style="note" title="Check Your Code" %}}
 <details>
 <summary><b>HTML Code</b> <-- Click to reveal</summary>
