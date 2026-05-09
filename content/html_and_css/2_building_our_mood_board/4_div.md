@@ -30,7 +30,7 @@ Let's wrap our 5 images and quote in a `div` tag:
 Let's make a second `div` for our quote text, which we will use for styling purposes shortly.
 
 ## Check your Code
-
+Your web page would not have shown changes yet - this step is preparation for the CSS tutorial!
 {{% notice style="note" title="Check Your Code" %}}
 <details>
 <summary><b>HTML Code</b> <-- Click to reveal</summary>
